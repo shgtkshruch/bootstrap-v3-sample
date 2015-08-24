@@ -1,0 +1,8 @@
+section.section
+  .row
+    - abouts = ['待遇', '社風', '職場環境', '研修制度']
+    each about, i in abouts
+      .section__row--2.col-xs-12.col-sm-6.col-md-3
+        h2.section__heading= about
+        img.section__img--sm(src="images/about-#{i+1}.jpg")
+        p.section__text ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト

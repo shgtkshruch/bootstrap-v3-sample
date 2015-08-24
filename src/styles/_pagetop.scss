@@ -1,0 +1,11 @@
+.pagetop {
+  text-align: right;
+  @media (min-width: $screen-sm) {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e4e4e4;
+  }
+  &__img {
+    width: 89px;
+  }
+}
+

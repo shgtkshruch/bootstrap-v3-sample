@@ -1,0 +1,9 @@
+section.section
+  .row
+    - features = [{heading: '特徴①'}, {heading: '特徴②'}, {heading: '特徴③'}]
+    each feature, i in features
+      .section__row--1.col-xs-12.col-sm-4
+        h2.section__heading= feature.heading
+        img.section__img--sm(src="images/feature-#{i+1}.jpg")
+        p.section__text ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト ダミーテキスト
+

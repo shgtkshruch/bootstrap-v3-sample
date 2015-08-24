@@ -1,0 +1,8 @@
+.access {
+  &__map {
+    margin-bottom: 50px;
+    @media (min-width: $screen-sm) {
+      margin-bottom: 0;
+    }
+  }
+}

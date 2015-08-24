@@ -4,12 +4,25 @@ html(lang="ja")
     meta(charset='UTF-8')
     title bootstrap-v3-sample
     meta(content='IE=edge', http-equiv='X-UA-Compatible')
-    meta(content='author', name='author')
-    meta(content='description', name='description')
-    meta(content='keywords', name='keywords')
     meta(content='width=device-width, initial-scale=1' name='viewport')
-    meta(content='telephone=no', name='format-detection')
 
     link(rel='stylesheet', href='styles/style.css', media='all')
   body
-    h1 Hello Twitter Bootstrap
+
+    include partials/header
+
+    main
+      .container
+        include partials/company
+        include partials/business
+        include partials/feature
+        include partials/feature-2
+        include partials/about
+        include partials/example
+        include partials/faq
+        include partials/map
+        include partials/last
+      include partials/pagetop
+
+    include partials/footer
+
